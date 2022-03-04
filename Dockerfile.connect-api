@@ -1,4 +1,4 @@
 FROM 1password/connect-api:latest
 RUN mkdir -p /home/opuser/.op/data
-PATH /home/opuser/.op/data
+WORKDIR /home/opuser/.op/data
 EXPOSE 8080
