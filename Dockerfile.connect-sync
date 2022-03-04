@@ -1,0 +1,2 @@
+FROM 1password/connect-sync:latest
+EXPOSE 8080

@@ -1,0 +1,2 @@
+FROM 1password/connect-api:latest
+EXPOSE 8080
